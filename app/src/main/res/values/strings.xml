@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">XOGame</string>
+    <string name="title">Tic Tac Toe</string>
+    <string name="grid_size">Grid size</string>
+    <string name="first_player">First player</string>
+    <string name="size_3x3">3x3</string>
+    <string name="size_4x4">4x4</string>
+    <string name="mode_alternating">alternating turns</string>
+    <string name="mode_x_first">always X-first</string>
+    <string name="start">Start</string>
+    <string name="next_game">Next Game</string>
+    <string name="turn_x">X\'s turn</string>
+    <string name="turn_o">O\'s turn</string>
+    <string name="back">Back</string>
+</resources>
