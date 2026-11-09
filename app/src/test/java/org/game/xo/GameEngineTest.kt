@@ -190,12 +190,12 @@ class GameEngineTest {
     @Test
     fun `4x4 requires four in a row`() {
         val e = GameEngine(4)
-        moves(e, 5, 0, 6, 1, 7, 4) // X: 5,6,7 (three)  O: 0,1,4
+        moves(e, 4, 0, 5, 1, 6, 2) // X: 4,5,6 (three)  O: 0,1,2
         assertFalse(e.gameOver)
-        moves(e, 8) // X: 5,6,7,8 = full row 1
+        moves(e, 7) // X: 4,5,6,7 = full row 1
         assertTrue(e.gameOver)
         assertEquals(GameEngine.X, e.lastResult)
-        assertEquals(listOf(5, 6, 7, 8), e.winningLine)
+        assertEquals(listOf(4, 5, 6, 7), e.winningLine)
     }
 
     @Test
